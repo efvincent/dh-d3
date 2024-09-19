@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge", // change to chrome if you need to
+            "request": "launch",
+            "name": "Debug index.html",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true, // Enable source maps
+            "preLaunchTask": "build-and-serve"
+        }
+    ]
+}
